@@ -45,7 +45,7 @@ Tujuan dari proyek ini adalah untuk menunjukkan keahlian dalam analisis data, SQ
    - Tabel "Products" memiliki foreign key Category yang mengacu pada nilai CategoryID dalam tabel "ProductCategory".
    - Hubungan ini dapat disebut sebagai "many-to-one" karena banyak produk dalam tabel "Products" termasuk dalam satu kategori tertentu dalam tabel "ProductCategory", tetapi setiap kategori hanya memiliki satu entri (produk) dalam tabel "Products".
 
-#### Soal 3: Pembuatan Tabel Master PT Sejahtera Bersama
+#### Tugas 3: Pembuatan Tabel Master PT Sejahtera Bersama
 
 Langkah-langkah untuk membuat tabel master PT Sejahtera Bersama adalah sebagai berikut:
 
@@ -65,7 +65,7 @@ Langkah-langkah untuk membuat tabel master PT Sejahtera Bersama adalah sebagai b
 5. **Tabel Data Master Siap untuk Diunduh:** 
    - Setelah langkah-langkah di atas dilakukan, tabel data master telah selesai dan siap untuk diunduh. Tabel ini dapat digunakan untuk analisis lebih lanjut dan pembuatan visualisasi data.
 
-Berikut adalah syntax SQL yang digunakan untuk langkah 2 dan 3:
+Berikut adalah syntax SQL yang digunakan untuk langkah 2, 3 dan 4:
 
 ```sql
 SELECT
@@ -81,9 +81,28 @@ FROM Final_Task.Customers AS c
 JOIN Final_Task.Orders AS o ON c.CustomerID = o.CustomerID
 JOIN Final_Task.Products as p ON o.ProdNumber = p.ProdNumber
 JOIN Final_Task.ProductCategory AS pc ON p.Category = pc.CategoryID
-ORDER BY order_date ASC
+ORDER BY order_date ASC;
 
-- Tugas 4: Mengembangkan dashboard interaktif menggunakan Looker untuk menampilkan visualisasi data penjualan.
+#### Tugas 4 
+
+Berikut adalah beberapa insight yang dapat diambil dari visualisasi pada dashboard:
+
+1. Total penjualan secara kumulatif selama periode Januari 2020 hingga Desember 2021 mencapai $1.754.750 dengan total jumlah barang terjual dari semua kategori sebanyak 11.654 buah.
+
+2. Analisis tren menunjukkan bahwa penjualan tertinggi terjadi pada bulan Juni 2021, sementara penjualan terendah tercatat pada bulan Oktober 2021.
+
+3. Kategori "Robots" berkontribusi paling banyak pada total penjualan, diikuti oleh "Drones," "Robot Kits," "Drone Kits," "Training Videos," "eBooks," dan terakhir "Blueprints."
+
+4. Berdasarkan total kuantitas terjual, kategori "eBooks" muncul sebagai kategori dengan penjualan terbanyak, diikuti oleh "Training Videos," "Blueprints," "Drone Kits," "Drones," "Robots," dan "Robot Kits."
+
+5. "Sleepy Eye Blueprint" adalah produk yang paling diminati oleh pelanggan sehingga paling banyak terjual.
+
+6. Lima kota pelanggan dengan total penjualan tertinggi, secara berurutan adalah, "Washington," "Houston," "Sacramento," "San Diego," dan "Albany."
+
+7. Dari proporsi masing-masing produk di lima kota teratas, tergambar bahwa kategori produk "Robots" merupakan produk yang paling banyak terjual di kota Washington, Sacramento, San Diego, dan Albany. Sementara itu, di kota Houston, produk pada kategori "Drones" memiliki penjualan yang lebih tinggi dibandingkan dengan empat kota lainnya.
+
+Silakan salin dan tempelkan markdown di atas ke README.md di repo GitHub Anda. Pastikan untuk menyimpannya dalam format yang sesuai agar tampilan terlihat rapi.
+
 - Tugas 5: Melakukan analisis terhadap visualisasi data untuk mendapatkan insight yang relevan.
 
 ### Project Files
