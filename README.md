@@ -28,8 +28,23 @@ Tujuan dari proyek ini adalah untuk menunjukkan keahlian dalam analisis data, SQ
 4. Tabel ProductCategory:
    - Primary Key: CategoryID
 
+#### Tugas 2: Hubungan Antar Tabel
 
-- Tugas 2: Menetapkan hubungan antar tabel berdasarkan primary key yang telah ditentukan.
+1. Hubungan antara "Customers" dan "Orders":
+   - Tabel "Customers" memiliki primary key CustomerID.
+   - Tabel "Orders" memiliki kolom CustomerID sebagai foreign key yang mengacu pada nilai CustomerID dalam tabel "Customers".
+   - Hubungan ini dapat disebut sebagai "one-to-many" karena satu pelanggan dalam tabel "Customers" dapat memiliki banyak pesanan dalam tabel "Orders", tetapi setiap pesanan hanya terkait dengan satu pelanggan.
+
+2. Hubungan antara "Orders" dan "Products":
+   - Tabel "Products" memiliki primary key ProdNumber.
+   - Tabel "Orders" memiliki kolom ProdNumber sebagai foreign key yang mengacu pada nilai ProdNumber dalam tabel "Products".
+   - Hubungan ini dapat disebut sebagai "many-to-one" karena banyak pesanan dalam tabel "Orders" dapat menggunakan produk yang sama dari tabel "Products", tetapi setiap produk hanya memiliki satu entri (pesanan) dalam tabel "Orders".
+
+3. Hubungan antara "Products" dan "ProductCategory":
+   - Tabel "ProductCategory" memiliki primary key CategoryID.
+   - Tabel "Products" memiliki foreign key Category yang mengacu pada nilai CategoryID dalam tabel "ProductCategory".
+   - Hubungan ini dapat disebut sebagai "many-to-one" karena banyak produk dalam tabel "Products" termasuk dalam satu kategori tertentu dalam tabel "ProductCategory", tetapi setiap kategori hanya memiliki satu entri (produk) dalam tabel "Products".
+
 - Tugas 3: Membuat tabel master dengan menggabungkan data dari tabel-tabel yang telah dihubungkan.
 - Tugas 4: Mengembangkan dashboard interaktif menggunakan Looker untuk menampilkan visualisasi data penjualan.
 - Tugas 5: Melakukan analisis terhadap visualisasi data untuk mendapatkan insight yang relevan.
