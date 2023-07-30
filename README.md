@@ -12,12 +12,12 @@ Tujuan dari proyek ini adalah untuk menunjukkan keahlian dalam analisis data, SQ
 3. Membuat tabel master dengan menggabungkan empat tabel awal<b>
 4. Mengembangkan dashboard interaktif menggunakan Looker untuk visualisasi data<b>
 5. Mendapatkan insight yang berarti dari visualisasi tersebut<b>
-6. Memberikan rekomendasi yang actionable untuk meningkatkan strategi penjualan PT Sejahtera Bersama.<b>
+6. Memberikan rekomendasi yang actionable untuk meningkatkan strategi penjualan PT Sejahtera Bersama.
 
 ### Project Files
 <ul>
 <li>(https://docs.google.com/spreadsheets/d/1GI4YFa3cE87rI35UBNYVnAsFaVsaT8HvkpfqrAEzCpg/edit?usp=drive_link) - Raw data penjualan yang digunakan untuk analisis.<b>
-<li>(https://lookerstudio.google.com/s/vHJehnkFVRQ) - Dashboard, visualisasi data di Looker Studio.<li><b>
+<li>(https://lookerstudio.google.com/s/vHJehnkFVRQ) - Dashboard, visualisasi data di Looker Studio.
   
 ### Alat yang digunakan
 <ul>
