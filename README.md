@@ -1,12 +1,12 @@
 # Final-Project-of-VIX-BI-Analyst-at-Bank-Muamalat
 
-### Overview
+## Overview
 Repositori ini berisi proyek akhir untuk Program Virtual Intership sebagai BI Analyst di Bank Muamalat x Rakamin Academy. Proyek ini berfokus pada analisis dan visualisasi data penjualan PT Sejahtera Bersama. Melibatkan berbagai tugas seperti menentukan primary key pada 4 tabel yang ada di dataset penjualan yaitu tabel customers, tabel orders, tabel products dan tabel produccategory, kemudian menetapkan hubungan antar tabel, membuat tabel master, mengembangkan dashboard interaktif menggunakan Looker, mencari insigh serta memberikan rekomendasi untuk perusahaan.
 
-### Tujuan
+## Tujuan
 Tujuan dari proyek ini adalah untuk menunjukkan keahlian dalam analisis data, SQL, dan alat visualisasi data seperti Looker. Dengan menyelesaikan tugas-tugas dan menghasilkan insight dan rekomendasi yang berharga, proyek ini menampilkan kemampuan untuk menggunakan data untuk mendukung proses pengambilan keputusan dalam lingkungan bisnis.
 
-### Tugas Proyek
+## Tugas Proyek
 1. Menentukan primary key untuk empat tabel dalam dataset penjualan
 2. Menetapkan hubungan antar tabel
 3. Membuat tabel master dengan menggabungkan empat tabel awal
@@ -14,8 +14,8 @@ Tujuan dari proyek ini adalah untuk menunjukkan keahlian dalam analisis data, SQ
 5. Mendapatkan insight yang berarti dari visualisasi tersebut
 6. Memberikan rekomendasi yang actionable untuk meningkatkan strategi penjualan PT Sejahtera Bersama.
 
-### Pengerjaan Tugas 1-5
-  #### Tugas 1: Penentuan Primary Key
+## Pengerjaan Tugas 1-5
+  ### Tugas 1: Penentuan Primary Key
 1. Tabel Customer:
    - Primary Key: CustomerID
 
@@ -28,7 +28,7 @@ Tujuan dari proyek ini adalah untuk menunjukkan keahlian dalam analisis data, SQ
 4. Tabel ProductCategory:
    - Primary Key: CategoryID
 
-#### Tugas 2: Hubungan Antar Tabel
+### Tugas 2: Hubungan Antar Tabel
 
 1. Hubungan antara "Customers" dan "Orders":
    - Tabel "Customers" memiliki primary key CustomerID.
@@ -45,7 +45,7 @@ Tujuan dari proyek ini adalah untuk menunjukkan keahlian dalam analisis data, SQ
    - Tabel "Products" memiliki foreign key Category yang mengacu pada nilai CategoryID dalam tabel "ProductCategory".
    - Hubungan ini dapat disebut sebagai "many-to-one" karena banyak produk dalam tabel "Products" termasuk dalam satu kategori tertentu dalam tabel "ProductCategory", tetapi setiap kategori hanya memiliki satu entri (produk) dalam tabel "Products".
 
-#### Tugas 3: Pembuatan Tabel Master PT Sejahtera Bersama
+### Tugas 3: Pembuatan Tabel Master PT Sejahtera Bersama
 
 Langkah-langkah untuk membuat tabel master PT Sejahtera Bersama adalah sebagai berikut:
 
@@ -83,11 +83,11 @@ JOIN Final_Task.Products as p ON o.ProdNumber = p.ProdNumber
 JOIN Final_Task.ProductCategory AS pc ON p.Category = pc.CategoryID
 ORDER BY order_date ASC;
 ```
-#### Tugas 4: Mengembangkan dashboard interaktif menggunakan Looker untuk menampilkan visualisasi data
+### Tugas 4: Mengembangkan dashboard interaktif menggunakan Looker untuk menampilkan visualisasi data
 Di bawah ini adalah tampilan dashboard sales overview PT Sejahtera bersama:
 ![Dashboard](dashboard.png)
 
-
+#### Insight
 Berikut adalah beberapa insight yang dapat diambil dari visualisasi pada dashboard:
 
 1. Total penjualan secara kumulatif selama periode Januari 2020 hingga Desember 2021 mencapai $1.754.750 dengan total jumlah barang terjual dari semua kategori sebanyak 11.654 buah.
@@ -104,9 +104,25 @@ Berikut adalah beberapa insight yang dapat diambil dari visualisasi pada dashboa
 
 7. Dari proporsi masing-masing produk di lima kota teratas, tergambar bahwa kategori produk "Robots" merupakan produk yang paling banyak terjual di kota Washington, Sacramento, San Diego, dan Albany. Sementara itu, di kota Houston, produk pada kategori "Drones" memiliki penjualan yang lebih tinggi dibandingkan dengan empat kota lainnya.
 
-Silakan salin dan tempelkan markdown di atas ke README.md di repo GitHub Anda. Pastikan untuk menyimpannya dalam format yang sesuai agar tampilan terlihat rapi.
 
-- Tugas 5: Melakukan analisis terhadap visualisasi data untuk mendapatkan insight yang relevan.
+### Tugas 5: Melakukan analisis terhadap visualisasi data untuk memberikan rekomendasi yang relevan.
+#### Rekomendasi:
+Beberapa rekomendasi yang dapat diusulkan kepada manajemen perusahaan PT Sejahtera Bersama untuk meningkatkan penjualan:
+
+1. Meningkatkan stok dan ketersediaan produk "Sleepy Eye Blueprint" sebagai produk yang paling diminati dan terjual dengan baik.
+2. Fokus pada pengembangan produk dalam kategori eBooks, Training Videos, dan Blueprints yang paling banyak terjual.
+
+3. Lakukan analisis mendalam mengenai pelanggan yang membeli produk kategori Robots, Drones, dan Robot Kits. Analisis ini dilakukan karena ketiga kategori ini memiliki kontribusi paling tinggi pada total pendapatan, tetapi memiliki kuantitas yang lebih rendah. Potensi penyebabnya adalah harga produk yang mahal sehingga hanya dijangkau oleh sebagian kalangan masyarakat, serta promosi yang belum optimal. 
+   Perusahaan perlu lebih mendalam dalam menggali karakteristik pelanggan untuk ketiga kategori ini, seperti gender, pendapatan, usia, dan faktor-faktor lain yang berpengaruh. Data tersebut akan membantu dalam menentukan strategi pemasaran yang tepat dan sesuai dengan segmentasi pelanggan.
+
+4. Mengaplikasikan strategi pemasaran khusus untuk produk kategori Robots di kota Washington, Sacramento, San Diego, dan Albany yang memiliki penjualan dominan. Gunakan promo dan diskon personalisasi untuk menarik lebih banyak pelanggan potensial dan meningkatkan loyalitas pelanggan lama.
+
+5. Perkuat pemasaran produk kategori "Drones" di kota Houston yang memiliki penjualan paling tinggi diantara top 5 kota dengan total penjualan terbanyak. Identifikasi preferensi pelanggan terkait produk "Drones" di kota ini untuk menyusun strategi pemasaran yang lebih efektif.
+
+6. Lakukan analisis lebih mendalam terkait preferensi dan perilaku pelanggan di tiap kota, mengingat preferensi kategori produk yang berbeda-beda. Oleh karena itu, perusahaan sebaiknya menyusun strategi penjualan yang dipersonalisasi dan disesuaikan dengan kebutuhan pelanggan di masing-masing kota sehingga distribusi produk akan lebih tepat sasaran dan efektif dalam mencapai target penjualan di masing-masing wilayah.
+
+7. Pertimbangkan untuk menawarkan produk secara bundling dengan kombinasi kategori produk yang sama atau berbeda untuk mendorong peningkatan penjualan. Dengan menawarkan produk secara bundling, perusahaan dapat menarik perhatian pelanggan dengan memberikan nilai tambah dan keuntungan ekonomi bagi mereka. Selain itu, bundling juga dapat meningkatkan rata-rata nilai pesanan (average order value) karena pelanggan cenderung membeli lebih dari satu produk dalam satu paket bundling. Hal ini dapat mendorong penjualan keseluruhan dan meningkatkan loyalitas pelanggan.
+
 
 ### Project Files
 - [Link Google Sheet](https://docs.google.com/spreadsheets/d/1GI4YFa3cE87rI35UBNYVnAsFaVsaT8HvkpfqrAEzCpg/edit?usp=drive_link) - Raw data penjualan yang digunakan untuk analisis.
