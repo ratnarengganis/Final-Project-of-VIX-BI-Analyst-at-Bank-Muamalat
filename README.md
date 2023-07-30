@@ -15,7 +15,20 @@ Tujuan dari proyek ini adalah untuk menunjukkan keahlian dalam analisis data, SQ
 6. Memberikan rekomendasi yang actionable untuk meningkatkan strategi penjualan PT Sejahtera Bersama.
 
 ### Pengerjaan Tugas 1-5
-- Tugas 1: Menentukan primary key untuk masing-masing tabel, yaitu Customers, Orders, Products, dan ProductCategory.
+  #### Tugas 1: Penentuan Primary Key
+1. Tabel Customer:
+   - Primary Key: CustomerID
+
+2. Tabel Products:
+   - Primary Key: ProdNumber
+
+3. Tabel Orders:
+   - Primary Key: OrderID
+
+4. Tabel ProductCategory:
+   - Primary Key: CategoryID
+
+
 - Tugas 2: Menetapkan hubungan antar tabel berdasarkan primary key yang telah ditentukan.
 - Tugas 3: Membuat tabel master dengan menggabungkan data dari tabel-tabel yang telah dihubungkan.
 - Tugas 4: Mengembangkan dashboard interaktif menggunakan Looker untuk menampilkan visualisasi data penjualan.
