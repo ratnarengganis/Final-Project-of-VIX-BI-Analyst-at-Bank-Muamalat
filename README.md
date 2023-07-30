@@ -113,9 +113,13 @@ Beberapa rekomendasi yang dapat diusulkan kepada manajemen perusahaan PT Sejahte
    ![top 5 selling products](1.png)
 
 3. Fokus pada pengembangan produk dalam kategori eBooks, Training Videos, dan Blueprints yang paling banyak terjual.
+
+   
 ![2](2.png)
 
 ![3](3.png)
+
+
 4. Lakukan analisis mendalam mengenai pelanggan yang membeli produk kategori Robots, Drones, dan Robot Kits. Analisis ini dilakukan karena ketiga kategori ini memiliki kontribusi paling tinggi pada total pendapatan, tetapi memiliki kuantitas yang lebih rendah. Potensi penyebabnya adalah harga produk yang mahal sehingga hanya dijangkau oleh sebagian kalangan masyarakat, serta promosi yang belum optimal. 
    Perusahaan perlu lebih mendalam dalam menggali karakteristik pelanggan untuk ketiga kategori ini, seperti gender, pendapatan, usia, dan faktor-faktor lain yang berpengaruh. Data tersebut akan membantu dalam menentukan strategi pemasaran yang tepat dan sesuai dengan segmentasi pelanggan.
 
