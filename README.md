@@ -4,7 +4,7 @@
 Repositori ini berisi proyek akhir untuk Program Virtual Intership sebagai BI Analyst di Bank Muamalat x Rakamin Academy. Proyek ini berfokus pada analisis dan visualisasi data penjualan PT Sejahtera Bersama. Melibatkan berbagai tugas seperti menentukan primary key pada 4 tabel yang ada di dataset penjualan yaitu tabel customers, tabel orders, tabel products dan tabel produccategory, kemudian menetapkan hubungan antar tabel, membuat tabel master, mengembangkan dashboard interaktif menggunakan Looker, mencari insigh serta memberikan rekomendasi untuk perusahaan.<b>
 
 ### Tujuan
-Tujuan dari proyek ini adalah untuk menunjukkan keahlian dalam analisis data, SQL, dan alat visualisasi data seperti Looker. Dengan menyelesaikan tugas-tugas dan menghasilkan insight dan rekomendasi yang berharga, proyek ini menampilkan kemampuan untuk menggunakan data untuk mendukung proses pengambilan keputusan dalam lingkungan bisnis.<b>
+Tujuan dari proyek ini adalah untuk menunjukkan keahlian dalam analisis data, SQL, dan alat visualisasi data seperti Looker. Dengan menyelesaikan tugas-tugas dan menghasilkan insight dan rekomendasi yang berharga, proyek ini menampilkan kemampuan untuk menggunakan data untuk mendukung proses pengambilan keputusan dalam lingkungan bisnis.
 
 ### Tugas Proyek
 1. Menentukan primary key untuk empat tabel dalam dataset penjualan<b>
