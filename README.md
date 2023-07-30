@@ -45,7 +45,44 @@ Tujuan dari proyek ini adalah untuk menunjukkan keahlian dalam analisis data, SQ
    - Tabel "Products" memiliki foreign key Category yang mengacu pada nilai CategoryID dalam tabel "ProductCategory".
    - Hubungan ini dapat disebut sebagai "many-to-one" karena banyak produk dalam tabel "Products" termasuk dalam satu kategori tertentu dalam tabel "ProductCategory", tetapi setiap kategori hanya memiliki satu entri (produk) dalam tabel "Products".
 
-- Tugas 3: Membuat tabel master dengan menggabungkan data dari tabel-tabel yang telah dihubungkan.
+#### Soal 3: Pembuatan Tabel Master PT Sejahtera Bersama
+
+Langkah-langkah untuk membuat tabel master PT Sejahtera Bersama adalah sebagai berikut:
+
+1. **Impor Data ke Google BigQuery:** 
+   - Import dataset penjualan yang terdiri dari 4 tabel: Customers, Orders, Products, dan ProductCategory ke Google BigQuery untuk pengolahan dan analisis data.
+
+2. **Query dengan Melakukan Join Tabel:** 
+   - Buat query SQL untuk menggabungkan keempat tabel berdasarkan hubungan kunci antar tabel menggunakan Primary Key. Hal ini memungkinkan kita untuk menggabungkan informasi dari tabel-tabel tersebut menjadi satu tabel besar.
+
+3. **Pilih Kolom-kolom Sesuai Kriteria dan Buat Alias pada Nama Kolom:** 
+   - Pilih kolom-kolom yang diperlukan untuk membentuk tabel master sesuai dengan kriteria yang telah ditetapkan, seperti CustomerEmail, CustomerCity, Date, Quantity, ProdName, Price, CategoryName, dan total_sales.
+   - Untuk kolom total_sales, hitung nilainya dengan mengalikan kolom Quantity/order_qty dengan kolom Price/product_price.
+
+4. **Urutkan Data Berdasarkan Tanggal Transaksi:** 
+   - Gunakan fungsi ORDER BY untuk mengurutkan data berdasarkan kolom order_date secara ascending (dari tanggal transaksi paling awal sampai paling akhir).
+
+5. **Tabel Data Master Siap untuk Diunduh:** 
+   - Setelah langkah-langkah di atas dilakukan, tabel data master telah selesai dan siap untuk diunduh. Tabel ini dapat digunakan untuk analisis lebih lanjut dan pembuatan visualisasi data.
+
+Berikut adalah syntax SQL yang digunakan untuk langkah 2 dan 3:
+
+```sql
+SELECT
+o.Date AS order_date,
+pc.CategoryName AS category_name,
+p.ProdNamea AS product_name,
+p.Price AS product_price,
+o.Quantity AS order_qty,
+(p.Price * p.Quantity) AS total_sales,
+c.CustomerEmail AS cust_email,
+c.CustomerCity AS cust_city
+FROM Final_Task.Customers AS c
+JOIN Final_Task.Orders AS o ON c.CustomerID = o.CustomerID
+JOIN Final_Task.Products as p ON o.ProdNumber = p.ProdNumber
+JOIN Final_Task.ProductCategory AS pc ON p.Category = pc.CategoryID
+ORDER BY order_date ASC
+
 - Tugas 4: Mengembangkan dashboard interaktif menggunakan Looker untuk menampilkan visualisasi data penjualan.
 - Tugas 5: Melakukan analisis terhadap visualisasi data untuk mendapatkan insight yang relevan.
 
