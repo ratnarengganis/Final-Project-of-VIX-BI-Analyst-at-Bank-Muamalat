@@ -82,8 +82,10 @@ JOIN Final_Task.Orders AS o ON c.CustomerID = o.CustomerID
 JOIN Final_Task.Products as p ON o.ProdNumber = p.ProdNumber
 JOIN Final_Task.ProductCategory AS pc ON p.Category = pc.CategoryID
 ORDER BY order_date ASC;
+```
+#### Tugas 4: Mengembangkan dashboard interaktif menggunakan Looker untuk menampilkan visualisasi data
+![Tampilan Dashboard Sales Overview PT Sejahtera Bersama](dashboard.png)
 
-#### Tugas 4 
 
 Berikut adalah beberapa insight yang dapat diambil dari visualisasi pada dashboard:
 
