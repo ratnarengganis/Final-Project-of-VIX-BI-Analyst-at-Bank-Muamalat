@@ -112,7 +112,7 @@ Beberapa rekomendasi yang dapat diusulkan kepada manajemen perusahaan PT Sejahte
 1. Meningkatkan stok dan ketersediaan produk "Sleepy Eye Blueprint" sebagai produk yang paling diminati dan terjual dengan baik, serta perusahaan juga dapat mempertimbangan meningkatkan stok produk lain yang memiliki jumlah penjualan yang bagus.
    ![top 5 selling products](1.png)
 
-3. Fokus pada pengembangan produk dalam kategori eBooks, Training Videos, dan Blueprints yang paling banyak terjual.
+2. Fokus pada pengembangan produk dalam kategori eBooks, Training Videos, dan Blueprints yang paling banyak terjual.
 
    
 ![2](2.png)
@@ -120,18 +120,18 @@ Beberapa rekomendasi yang dapat diusulkan kepada manajemen perusahaan PT Sejahte
 ![3](3.png)
 
 
-4. Lakukan analisis mendalam mengenai pelanggan yang membeli produk kategori Robots, Drones, dan Robot Kits. Analisis ini dilakukan karena ketiga kategori ini memiliki kontribusi paling tinggi pada total pendapatan, tetapi memiliki kuantitas yang lebih rendah. Potensi penyebabnya adalah harga produk yang mahal sehingga hanya dijangkau oleh sebagian kalangan masyarakat, serta promosi yang belum optimal. 
+3. Lakukan analisis mendalam mengenai pelanggan yang membeli produk kategori Robots, Drones, dan Robot Kits. Analisis ini dilakukan karena ketiga kategori ini memiliki kontribusi paling tinggi pada total pendapatan, tetapi memiliki kuantitas yang lebih rendah. Potensi penyebabnya adalah harga produk yang mahal sehingga hanya dijangkau oleh sebagian kalangan masyarakat, serta promosi yang belum optimal. 
    Perusahaan perlu lebih mendalam dalam menggali karakteristik pelanggan untuk ketiga kategori ini, seperti gender, pendapatan, usia, dan faktor-faktor lain yang berpengaruh. Data tersebut akan membantu dalam menentukan strategi pemasaran yang tepat dan sesuai dengan segmentasi pelanggan.
 
 ![4](4.png)
 
-5. Mengaplikasikan strategi pemasaran khusus untuk produk kategori Robots di kota Washington, Sacramento, San Diego, dan Albany yang memiliki penjualan dominan. Gunakan promo dan diskon personalisasi untuk menarik lebih banyak pelanggan potensial dan meningkatkan loyalitas pelanggan lama.
+4. Mengaplikasikan strategi pemasaran khusus untuk produk kategori Robots di kota Washington, Sacramento, San Diego, dan Albany yang memiliki penjualan dominan. Gunakan promo dan diskon personalisasi untuk menarik lebih banyak pelanggan potensial dan meningkatkan loyalitas pelanggan lama.
 
-6. Perkuat pemasaran produk kategori "Drones" di kota Houston yang memiliki penjualan paling tinggi diantara top 5 kota dengan total penjualan terbanyak. Identifikasi preferensi pelanggan terkait produk "Drones" di kota ini untuk menyusun strategi pemasaran yang lebih efektif.
+5. Perkuat pemasaran produk kategori "Drones" di kota Houston yang memiliki penjualan paling tinggi diantara top 5 kota dengan total penjualan terbanyak. Identifikasi preferensi pelanggan terkait produk "Drones" di kota ini untuk menyusun strategi pemasaran yang lebih efektif.
 
-7. Lakukan analisis lebih mendalam terkait preferensi dan perilaku pelanggan di tiap kota, mengingat preferensi kategori produk yang berbeda-beda. Oleh karena itu, perusahaan sebaiknya menyusun strategi penjualan yang dipersonalisasi dan disesuaikan dengan kebutuhan pelanggan di masing-masing kota sehingga distribusi produk akan lebih tepat sasaran dan efektif dalam mencapai target penjualan di masing-masing wilayah.
+6. Lakukan analisis lebih mendalam terkait preferensi dan perilaku pelanggan di tiap kota, mengingat preferensi kategori produk yang berbeda-beda. Oleh karena itu, perusahaan sebaiknya menyusun strategi penjualan yang dipersonalisasi dan disesuaikan dengan kebutuhan pelanggan di masing-masing kota sehingga distribusi produk akan lebih tepat sasaran dan efektif dalam mencapai target penjualan di masing-masing wilayah.
 
-8. Pertimbangkan untuk menawarkan produk secara bundling dengan kombinasi kategori produk yang sama atau berbeda untuk mendorong peningkatan penjualan. Dengan menawarkan produk secara bundling, perusahaan dapat menarik perhatian pelanggan dengan memberikan nilai tambah dan keuntungan ekonomi bagi mereka. Selain itu, bundling juga dapat meningkatkan rata-rata nilai pesanan (average order value) karena pelanggan cenderung membeli lebih dari satu produk dalam satu paket bundling. Hal ini dapat mendorong penjualan keseluruhan dan meningkatkan loyalitas pelanggan.
+7. Pertimbangkan untuk menawarkan produk secara bundling dengan kombinasi kategori produk yang sama atau berbeda untuk mendorong peningkatan penjualan. Dengan menawarkan produk secara bundling, perusahaan dapat menarik perhatian pelanggan dengan memberikan nilai tambah dan keuntungan ekonomi bagi mereka. Selain itu, bundling juga dapat meningkatkan rata-rata nilai pesanan (average order value) karena pelanggan cenderung membeli lebih dari satu produk dalam satu paket bundling. Hal ini dapat mendorong penjualan keseluruhan dan meningkatkan loyalitas pelanggan.
 
 
 ## Project Files
