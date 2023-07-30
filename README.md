@@ -16,10 +16,10 @@ Tujuan dari proyek ini adalah untuk menunjukkan keahlian dalam analisis data, SQ
 
 ### Project Files
 <ul>
-<li>(https://docs.google.com/spreadsheets/d/1GI4YFa3cE87rI35UBNYVnAsFaVsaT8HvkpfqrAEzCpg/edit?usp=drive_link) - Raw data penjualan yang digunakan untuk analisis.<li><b>
+<li>(https://docs.google.com/spreadsheets/d/1GI4YFa3cE87rI35UBNYVnAsFaVsaT8HvkpfqrAEzCpg/edit?usp=drive_link) - Raw data penjualan yang digunakan untuk analisis.<b>
 <li>(https://lookerstudio.google.com/s/vHJehnkFVRQ) - Dashboard, visualisasi data di Looker Studio.<li><b>
   
 ### Alat yang digunakan
 <ul>
-<li>Google BigQuery untuk analisis dan manipulasi data.<li>
+</li>Google BigQuery untuk analisis dan manipulasi data.</li>
 <li>Looker untuk visualisasi data interaktif.<li>
